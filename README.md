@@ -50,7 +50,27 @@ The server provides:
 - Access to your Raindrop collections and raindrop data through capabilities
 - Support for viewing root collections, child collections, or a specific collection by ID
 - Tools to create, update, and delete collections and raindrops
-- Tools to create and update new tags 
+- Tools to create and update new tags
+
+## Example Queries
+
+After installing the server to Claude Desktop, you can ask Claude questions and commands like:
+
+- "Show me all my Raindrop collections"
+- "Do I have any collections related to programming?"
+- "Add this tag to all raindrops in this collection"
+- "Show me the details of my Raindrop collection with ID 12345"
+- "What child collections do I have in Raindrop?"
+- "Create a new Raindrop collection called 'Claude Resources'"
+
+Here is some example usage in Claude Desktop (paired with a Firecrawl MCP server):
+
+Input to Claude Desktop as the classificaiton system:
+![classifier](https://github.com/user-attachments/assets/648d587f-6e10-42b3-b759-878110ce1d66)
+
+Output from Claude Desktop:
+![classifier-output](https://github.com/user-attachments/assets/60d67757-cda5-472b-895d-c31b1fdd3631)
+
 
 ## Tools
 
@@ -146,16 +166,6 @@ Updates multiple raindrops at once within a collection.
 - `nested`: Include raindrops from nested collections
 - `search`: Optional search query to filter which raindrops to update
 
-## Example Queries
-
-After installing the server to Claude Desktop, you can ask Claude questions and commands like:
-
-- "Show me all my Raindrop collections"
-- "Do I have any collections related to programming?"
-- "Add this tag to all raindrops in this collection"
-- "Show me the details of my Raindrop collection with ID 12345"
-- "What child collections do I have in Raindrop?"
-- "Create a new Raindrop collection called 'Claude Resources'"
   
 ## Dependencies
 
