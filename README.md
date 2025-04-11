@@ -1,6 +1,6 @@
 # Raindrop MCP Server
 
-This is a Model Context Protocol (MCP) server for Raindrop.io powered by the [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk/tree/main). It provides an easy way to read and update your Raindrop collections and raindrops and tags from Claude Desktop in simple, human language. This can be paired with things like the [Firecrawl MCP server](https://github.com/mendableai/firecrawl-mcp-server#) to enable streamlined automation and organization of your Raindrop collections and tagging system.
+This is a Model Context Protocol (MCP) server for Raindrop.io powered by the [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk/tree/main). It provides an easy way to read and update your bookmarks from the Raindrop personal knowledge management system from Claude Desktop in simple, human language. This can be paired with the [Firecrawl MCP server](https://github.com/mendableai/firecrawl-mcp-server#) to read the URLs associated with your bookmarks and classify them accordingly.
 
 ## Requirements
 
